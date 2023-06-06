@@ -1,0 +1,138 @@
+/* DOCUMENTO CSS - MODELO 1 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+body {    
+    font-family: sans-serif;
+}
+#topo {
+ 
+    height: 167px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #8582D9;
+    padding: 0 100px;
+}
+#topo #logo {
+    
+    width: 190px;
+    height:178px;
+    margin-left:0px;
+    margin-top: 1px;
+}
+#topo #logo img{
+    width: 93%;
+}
+#topo h1{
+    margin-left: 50px;
+    font-size: 80px;
+    font-family: 'Bruno ace',sans-serif;
+    
+
+}
+#menu {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3b3a3b;
+}
+#menu ul {
+    list-style: none;
+}
+#menu ul li {
+    display: inline;
+}
+#menu ul li a{
+    font-size: 14px;
+    color: #fff;
+    padding: 26px 50px 25px 50px;
+    font-weight: 800;
+    transition: 0.4s;
+}
+#menu ul li a:hover{
+    color: #2C04BF;
+    background-color: #a4a4a4;
+}
+#secao1 {
+    height: 800px;
+    background-color: #F0F0F2;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#secao2 {
+    height: 800px;
+    background-color: #F0F0F2;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloSecao {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.tituloSecao2 {
+    font-size: 40px;
+    
+
+}
+.containerColunas {
+    display: flex;
+}
+.coluna1 {
+    width: 600px;
+    height: 700px;
+    margin: 0 10px;
+    font-size: 20px;
+}
+.coluna2{
+    width: 600px;
+    height: 700px;
+    margin: 0 10px;
+    font-size: 30px;
+    font-family:  'Bruno ace',sans-serif;  
+    justify-content: center;
+    
+}
+.coluna2 .tituloSecao2 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    font-family: 'Bruno ace',sans-serif;  
+
+
+}
+#rodape {
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #8582D9;
+    padding: 0;
+    font-weight: 600;
+    font-family: 'Bruno ace',sans-serif;
+}
+#rodape figure {
+    width: 79px;
+ 
+
+    margin-left: 20px;
+    padding: 0;
+}
+#rodape figure img {
+    width: 98%;
+}
+#rodape p{
+    margin-left: 50px;
+}
+
